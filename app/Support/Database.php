@@ -3,8 +3,8 @@
     require_once "../../config.php";
     namespace Edu\board\Support;
 
-use Exception;
-use PDO;
+
+    use PDO;
 
     /**
      * Database Managements
@@ -28,13 +28,8 @@ use PDO;
           private function connection(){
 
             $connection =  new PDO("mysql:host=" .$this -> host. ";db_name=" . $this -> db, $this -> user, $this -> pass );
-            
+
           }
-
-
-
-
-
 
 
 
