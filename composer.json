@@ -1,0 +1,20 @@
+{
+    "name": "rabbi204/education-board-result-system",
+    "description": "This is learning purpose for result calculation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rabbi204",
+            "email": "md.rabbi.web@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Edu\\Board\\" : "app\\"
+        }
+    },
+
+    "require": {}
+}
