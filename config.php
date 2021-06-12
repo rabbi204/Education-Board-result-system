@@ -1,5 +1,7 @@
 <?php
 
+    // Session Start
+    session_start();
 
     /**
      *  Server Constant
@@ -10,7 +12,8 @@
      define('PASS','root');
      define('DB','edu');
 
+    // echo password_hash('admin',PASSWORD_DEFAULT);
 
-
+    
 
 ?>
