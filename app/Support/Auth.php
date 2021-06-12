@@ -1,6 +1,6 @@
 <?php
 
-    namespace Edu\board\Support;
+    namespace Edu\Board\Support;
 
     use Edu\Board\Support\Database;
     use PDO;
@@ -51,9 +51,16 @@
             return $this -> dataCheck( 'users', $email_uname ); 
         }
 
+        /**
+         *  logout System
+         */
+        public function userLogout()
+        {
+            session_destroy();
+            header('location:index.php');
+        }
+
     }
-
-
 
 
 
